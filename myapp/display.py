@@ -4,7 +4,7 @@ def html():
     from cloudant.error import CloudantException
     from cloudant.result import Result, ResultByKey
     import time as t
-    client = Cloudant("6656429c-2491-40a6-b026-31dd597c43de-bluemix", "3847820cff823b729fdc0863eeac335529dc19ccab353aa401f6de6b57c38e57", url="https://6656429c-2491-40a6-b026-31dd597c43de-bluemix:3847820cff823b729fdc0863eeac335529dc19ccab353aa401f6de6b57c38e57@6656429c-2491-40a6-b026-31dd597c43de-bluemix.cloudantnosqldb.appdomain.cloud")
+    client = Cloudant("", "", url="")
     client.connect()
     my_database = client.create_database("url_history1")
     #dtt=[]
